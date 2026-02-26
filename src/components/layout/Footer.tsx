@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Facebook, Instagram, Phone } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation();
@@ -10,17 +11,22 @@ const Footer: React.FC = () => {
     {
       name: "Facebook",
       icon: <Facebook className="h-5 w-5" />,
-      url: "https://www.facebook.com/share/15Lt2wMDen/?mibextid=wwXIfr",
+      url: "https://www.facebook.com/share/17z1bMGgkk/?mibextid=wwXIfr",
     },
     {
       name: "Instagram",
       icon: <Instagram className="h-5 w-5" />,
-      url: "https://www.instagram.com/dr_alaa_hegazy_?igsh=MXNseTVmNHExYWtvag==",
+      url: "https://www.instagram.com/dr_mohamed_elgorany?igsh=aHcwamphOXYxamJj",
+    },
+    {
+      name: "Tiktok",
+      icon: <FaTiktok className="h-5 w-5" />,
+      url: "https://www.tiktok.com/@drmohamedelgorany?_r=1&_t=ZS-94DeS4enrJk",
     },
     {
       name: "WhatsApp",
       icon: <Phone className="h-5 w-5" />,
-      url: "https://wa.me/+201111106322",
+      url: "https://wa.me/+201558155330",
     },
   ];
 
@@ -30,7 +36,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About Column */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Alaa Hegazy Mohamed</h3>
+            <h3 className="text-xl font-bold mb-4">Mohamed Elgorany</h3>
             <p className="text-muted-foreground mb-4">{t("hero.subtitle")}</p>
           </div>
 
@@ -79,7 +85,7 @@ const Footer: React.FC = () => {
             <div className="text-muted-foreground">
               <p className="mb-2">
                 {t("contact.phone")}:{" "}
-                <a href="https://wa.me/+201111106322">+20 111 110 6322</a>
+                <a href="https://wa.me/+201558155330">+20 155 815 5330</a>
               </p>
               <p>
                 {t("contact.location")}: {t("contact.address")}
@@ -107,7 +113,7 @@ const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="text-center border-t border-border pt-6 text-sm text-muted-foreground">
           <p>
-            © {currentYear} Alaa Hegazy Mohamed. {t("footer.rights")}.
+            © {currentYear} Mohamed Elgorany. {t("footer.rights")}.
           </p>
         </div>
       </div>

@@ -4,7 +4,8 @@ import { useLanguage } from "../../context/LanguageContext";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Phone, ArrowRight } from "lucide-react";
-import alaaImage from "../../assets/Alaa Hegazy.jpg";
+import { FaTiktok } from "react-icons/fa";
+import moImage from "../../assets/cup two.jpg";
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
@@ -13,17 +14,22 @@ const Hero: React.FC = () => {
     {
       name: "Facebook",
       icon: <Facebook className="h-5 w-5" />,
-      url: "https://www.facebook.com/share/15Lt2wMDen/?mibextid=wwXIfr",
+      url: "https://www.facebook.com/share/17z1bMGgkk/?mibextid=wwXIfr",
     },
     {
       name: "Instagram",
       icon: <Instagram className="h-5 w-5" />,
-      url: "https://www.instagram.com/dr_alaa_hegazy_?igsh=MXNseTVmNHExYWtvag==",
+      url: "https://www.instagram.com/dr_mohamed_elgorany?igsh=aHcwamphOXYxamJj",
+    },
+    {
+      name: "Tiktok",
+      icon: <FaTiktok className="h-5 w-5" />,
+      url: "https://www.tiktok.com/@drmohamedelgorany?_r=1&_t=ZS-94DeS4enrJk",
     },
     {
       name: "WhatsApp",
       icon: <Phone className="h-5 w-5" />,
-      url: "https://wa.me/+201111106322",
+      url: "https://wa.me/+201558155330",
     },
   ];
 
@@ -93,8 +99,8 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl"></div>
               <img
-                src={alaaImage}
-                alt="Alaa Hegazy"
+                src={moImage}
+                alt="Mohamed Elgorany"
                 className="rounded-3xl shadow-2xl relative mx-auto"
                 style={{ maxHeight: "600px", objectFit: "cover" }}
               />

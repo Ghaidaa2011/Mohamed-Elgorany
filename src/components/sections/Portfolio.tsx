@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 // import { Button } from "@/components/ui/button";
 
-import BodyContouring from "@/assets/Body Contouring.jpg";
-import FatReductionTreatment from "@/assets/Fat Reduction Treatment.jpg";
-import NutritionTransformation from "@/assets/Nutrition Transformation.jpg";
-import SkinRejuvenation from "@/assets/Skin Rejuvenation.jpg";
+import SportsRehabCase from "@/assets/SportsRehabCase.jpeg";
+import ChampionshipCoverage from "@/assets/ChampionshipCoverage.jpeg";
+import FieldSupport from "@/assets/FieldSupport.jpeg";
+import RecoverySession from "@/assets/RecoverySession.jpeg";
 
 const Portfolio: React.FC = () => {
   const { t } = useTranslation();
@@ -15,27 +15,27 @@ const Portfolio: React.FC = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: t("portfolio.client1"),
-      image: FatReductionTreatment,
-      category: "transformation",
+      title: t("portfolio.case1"),
+      image: SportsRehabCase,
+      category: "rehabilitation",
     },
     {
       id: 2,
-      title: t("portfolio.client2"),
-      image: SkinRejuvenation,
-      category: "transformation",
+      title: t("portfolio.case2"),
+      image: FieldSupport,
+      category: "field",
     },
     {
       id: 3,
-      title: t("portfolio.client3"),
-      image: BodyContouring,
-      category: "training",
+      title: t("portfolio.case3"),
+      image: ChampionshipCoverage,
+      category: "events",
     },
     {
       id: 4,
-      title: t("portfolio.client4"),
-      image: NutritionTransformation,
-      category: "training",
+      title: t("portfolio.case4"),
+      image: RecoverySession,
+      category: "clinic",
     },
   ];
 

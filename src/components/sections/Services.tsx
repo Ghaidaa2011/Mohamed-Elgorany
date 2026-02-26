@@ -14,28 +14,34 @@ const Services: React.FC = () => {
 
   const services = [
     {
-      title: t("services.laser.title"),
-      description: t("services.laser.description"),
-      icon: "⚡",
-      color: "from-purple-400 to-indigo-500",
+      title: t("services.physio.title"),
+      description: t("services.physio.description"),
+      icon: "🩺",
+      color: "from-blue-500 to-indigo-600",
     },
     {
-      title: t("services.contouring.title"),
-      description: t("services.contouring.description"),
-      icon: "✨",
-      color: "from-blue-400 to-cyan-500",
+      title: t("services.rehab.title"),
+      description: t("services.rehab.description"),
+      icon: "🏃‍♂️",
+      color: "from-purple-500 to-pink-600",
+    },
+    {
+      title: t("services.recovery.title"),
+      description: t("services.recovery.description"),
+      icon: "💪",
+      color: "from-green-500 to-emerald-600",
     },
     {
       title: t("services.nutrition.title"),
       description: t("services.nutrition.description"),
       icon: "🥗",
-      color: "from-green-400 to-emerald-500",
+      color: "from-orange-500 to-yellow-500",
     },
     {
-      title: t("services.consultation.title"),
-      description: t("services.consultation.description"),
-      icon: "👩‍⚕️",
-      color: "from-yellow-400 to-orange-500",
+      title: t("services.field.title"),
+      description: t("services.field.description"),
+      icon: "🚑",
+      color: "from-red-500 to-rose-600",
     },
   ];
 

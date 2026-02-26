@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useLanguage } from "../../context/LanguageContext";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import alaaImage from "../../assets/Alaa Hegazy Mohamed.jpg";
+import moImage from "../../assets/mo.jpg";
 
 const About: React.FC = () => {
   const { t } = useTranslation();
@@ -60,8 +60,8 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-accent/10 rounded-lg rotate-6 transform"></div>
               <img
-                src={alaaImage}
-                alt="Coach Manar Anwar"
+                src={moImage}
+                alt="Dr Mohamed Elgorany"
                 className="rounded-lg shadow-lg relative z-10"
               />
             </div>

@@ -65,11 +65,11 @@ const Contact: React.FC = () => {
                       <p className="font-bold">{t("contact.phone")}</p>
                       <p className="text-muted-foreground">
                         <a
-                          href="tel:+201112441846"
+                          href="tel:+201558155330"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          +20 111 110 6322
+                          +20 155 815 5330
                         </a>
                       </p>
                     </div>

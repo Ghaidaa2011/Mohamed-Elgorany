@@ -45,7 +45,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="text-xl font-bold text-foreground">
-          <span className="text-primary">Alaa</span> Hegazy
+          <span className="text-primary">Mohamed</span> Elgorany
         </a>
 
         {/* Desktop Navigation */}
