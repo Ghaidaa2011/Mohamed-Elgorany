@@ -15,17 +15,17 @@ export default {
   // Hero Section
   'hero.greeting': 'Hello, I am',
   'hero.name': 'Dr. Mohamed Elgorany',
-  'hero.title': 'Physical Therapist and Founder of Champiqo, PT World Academy, and KAF Tools',
-  'hero.subtitle': 'Doctor of NCSC 🏀',
+  'hero.title': 'Physical Therapist | Founder of Champiqo, PT World Academy, KAF Tools & Medicaa Scrub',
+  'hero.subtitle': 'Official Physical Therapist of Al Ahly 3x3 Basketball Team | Physical Therapist of the Egypt National Wheelchair Basketball Team | Head of Medical Department 🏀',
   'hero.cta': 'Get Started',
 
   // About Section
   'about.title': 'About Me',
   'about.subtitle': 'Professional Background & Expertise',
 
-  'about.description1': 'A licensed Physical Therapist with extensive clinical experience in orthopedic rehabilitation, ICU patient management, and sports injuries. Throughout my career, I have worked in leading medical institutions and sports organizations, delivering high-quality, evidence-based care to my patients.',
+  'about.description1': 'A licensed Physical Therapist with extensive clinical experience in orthopedic rehabilitation, sports injuries, and advanced recovery techniques. I have worked in leading medical institutions including Neurospital Hospital, Physio Guard Clinic, Mohsen clinic, and Physio Spot, delivering evidence-based care focused on performance and long-term recovery.',
 
-  'about.description2': 'I currently serve as the Head of the Medical Sector at Nasr City Club and as the Physical Therapist for the Egyptian National Wheelchair Basketball Team. I am also the Founder of Champiqo, PT World Academy, and KAF Tools, where I combine clinical expertise with education and sports performance development.',
+  'about.description2': 'I serve as a Sports Physical Therapist working with professional athletes and competitive teams, including my role as the Official Physical Therapist of Al Ahly 3x3 Basketball Team. I am also the Founder of Champiqo, PT World Academy, and KAF Tools, where I integrate clinical expertise, education, and sports performance development.',
 
   'about.experience': 'Clinical Experience',
   'about.clients': 'Sports & Medical Affiliations',
@@ -58,18 +58,29 @@ export default {
   'portfolio.case2': 'Field Medical Support',
   'portfolio.case3': 'Championship Coverage',
   'portfolio.case4': 'Athlete Recovery Session',
-
+  'portfolio.case5': 'Podium Moments & Gold Medals',
+  'portfolio.case6': 'Return to Play Programs',
   'portfolio.viewAll': 'View All',
 
   // Testimonials Section
-  'testimonials.title': 'Testimonials',
-  'testimonials.subtitle': 'What my clients say',
-  'testimonials.client1.name': 'Sarah Ali',
-  'testimonials.client1.text': 'Alaa\'s laser therapy treatments have transformed my skin texture and helped me achieve amazing results. Her expertise is outstanding!',
-  'testimonials.client2.name': 'Ahmed Hassan',
-  'testimonials.client2.text': 'The body contouring treatments with Alaa exceeded my expectations. Her attention to detail and professional approach is remarkable.',
-  'testimonials.client3.name': 'Layla Mohamed',
-  'testimonials.client3.text': 'Alaa\'s nutrition coaching combined with her treatments gave me the complete transformation I was looking for. Highly recommended!',
+  'testimonials.title': 'Athlete Testimonials',
+  'testimonials.subtitle': 'Trusted by Professional Athletes',
+
+  'testimonials.client1.name': 'Captain Eyad Abdullah',
+  'testimonials.client1.role': 'Zamalek Club Player',
+  'testimonials.client1.text': 'The rehabilitation program at Champiqo helped me recover faster and return to the field stronger than before. The medical support and performance focus were exceptional.',
+
+  'testimonials.client2.name': 'Captain Youssef El-Domty',
+  'testimonials.client2.role': 'Nasr City Club Player',
+  'testimonials.client2.text': 'Professional assessment, accurate diagnosis, and a structured rehab plan. I felt real progress week after week until I was fully ready to compete again.',
+
+  'testimonials.client3.name': 'Captain Salim AbdelFattah',
+  'testimonials.client3.role': 'Nasr City Club Player',
+  'testimonials.client3.text': 'Champiqo’s sports rehabilitation approach improved my strength, mobility, and confidence on the field. Highly recommended for serious athletes.',
+
+  'testimonials.client4.name': 'Captain Mohamed El-Sheishtawy (Boba)',
+  'testimonials.client4.role': 'Nasr City Club Player',
+  'testimonials.client4.text': 'From injury management to performance recovery, the team provided top-level care and continuous follow-up. A professional sports medical experience.',
 
   // Contact Section
   'contact.title': 'Contact Me',

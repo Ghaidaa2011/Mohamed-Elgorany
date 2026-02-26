@@ -3,6 +3,10 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { useLanguage } from "../../context/LanguageContext";
+import RecoverySession from "@/assets/RecoverySession.jpeg";
+import captianEyad from "@/assets/captianEyad.jpeg";
+import captainYoussef from "@/assets/captainYoussef.jpeg";
+import captainSalim from "@/assets/captainSalim .jpeg";
 
 const Testimonials: React.FC = () => {
   const { t } = useTranslation();
@@ -10,22 +14,31 @@ const Testimonials: React.FC = () => {
 
   const testimonials = [
     {
-      id: 1,
       name: t("testimonials.client1.name"),
+      role: t("testimonials.client1.role"),
       text: t("testimonials.client1.text"),
-      avatar: "https://randomuser.me/api/portraits/women/60.jpg",
+      avatar: captianEyad,
     },
     {
-      id: 2,
+      id: 3,
       name: t("testimonials.client2.name"),
+      role: t("testimonials.client2.role"),
       text: t("testimonials.client2.text"),
-      avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+      avatar: captainYoussef,
     },
     {
       id: 3,
       name: t("testimonials.client3.name"),
+      role: t("testimonials.client3.role"),
       text: t("testimonials.client3.text"),
-      avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+      avatar: captainSalim,
+    },
+    {
+      id: 4,
+      name: t("testimonials.client4.name"),
+      role: t("testimonials.client4.role"),
+      text: t("testimonials.client4.text"),
+      avatar: RecoverySession,
     },
   ];
 
@@ -67,18 +80,22 @@ const Testimonials: React.FC = () => {
                       isRTL ? "space-x-reverse" : ""
                     } space-x-4`}
                   >
-                    {/* <div className="w-12 h-12 rounded-full overflow-hidden">
+                    <div className="w-12 h-12 rounded-full overflow-hidden">
                       <img
                         src={testimonial.avatar}
                         alt={testimonial.name}
                         className="w-full h-full object-cover"
-                      /> */}
-                    <div className="w-12 h-12 rounded-full overflow-hidden bg-primary flex items-center justify-center text-white text-xl font-bold">
-                      {testimonial.name && testimonial.name[0]}
+                      />
                     </div>
+                    {/* <div className="w-12 h-12 rounded-full overflow-hidden bg-primary flex items-center justify-center text-white text-xl font-bold">
+                      {testimonial.name && testimonial.name[0]}
+                    </div> */}
                     <div>
                       <p className="font-bold flex items-center gap-2">
                         {testimonial.name}
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        {testimonial.role}
                       </p>
                       <span className="text-yellow-400 text-base">★★★★★</span>
                     </div>

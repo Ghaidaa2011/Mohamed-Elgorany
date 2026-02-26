@@ -8,6 +8,8 @@ import SportsRehabCase from "@/assets/SportsRehabCase.jpeg";
 import ChampionshipCoverage from "@/assets/ChampionshipCoverage.jpeg";
 import FieldSupport from "@/assets/FieldSupport.jpeg";
 import RecoverySession from "@/assets/RecoverySession.jpeg";
+import goldMedal from "@/assets/goldMedal.jpeg";
+import ReturnToPlay from "@/assets/return.jpeg";
 
 const Portfolio: React.FC = () => {
   const { t } = useTranslation();
@@ -36,6 +38,18 @@ const Portfolio: React.FC = () => {
       title: t("portfolio.case4"),
       image: RecoverySession,
       category: "clinic",
+    },
+    {
+      id: 5,
+      title: t("portfolio.case5"),
+      image: goldMedal,
+      category: "podium",
+    },
+    {
+      id: 6,
+      title: t("portfolio.case6"),
+      image: ReturnToPlay,
+      category: "return",
     },
   ];
 
